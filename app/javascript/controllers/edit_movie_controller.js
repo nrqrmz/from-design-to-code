@@ -2,7 +2,7 @@ import { Controller } from "@hotwired/stimulus"
 
 // Connects to data-controller="edit-movie"
 export default class extends Controller {
-  static targets = ["form", "infos"]
+  static targets = ["card", "form", "infos"]
 
   displayForm() {
     this.infosTarget.classList.add("d-none")
